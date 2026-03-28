@@ -1,0 +1,37 @@
+
+
+{
+    "_comment": "Este arquivo JSON contem informações sobre clientes e seus processos associados. Cada cliente tem um ID, nome, estado e uma lista de processos com detalhes como ID do processo",
+  
+    "clientes": {
+    "2": {
+      "id_cliente": 2,
+      "nome": "Eduardo Bomfim",
+      "estado": "SP",
+      "processos": {
+        "10": {
+          "id_processo": 10,
+          "assunto": "democlativo",
+          "data_abertura": "2023-07-10"
+        },
+        "102": {
+          "id_processo": 102,
+          "assunto": "Civil",
+          "data_abertura": "2023-08-15"
+        }
+      }
+    },
+    "3": {
+      "id_cliente": 3,
+      "nome": "Maria Souza",
+      "estado": "RJ",
+      "processos": {
+        "103": {
+          "id_processo": 103,
+          "assunto": "Trabalhista",
+          "data_abertura": "2023-09-20"
+        }
+      }
+    }
+  }
+}
